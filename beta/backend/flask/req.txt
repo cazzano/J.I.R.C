@@ -1,0 +1,13 @@
+flask
+flask-cors
+PyMuPDF 
+flask 
+APScheduler
+SQLAlchemy
+pdf2image
+Pillow
+PyPDF2
+pdf2image
+Pillow
+PyPDF2
+Wand
