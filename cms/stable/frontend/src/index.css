@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global Styles */
+body {
+  @apply bg-gray-50 text-gray-900 font-sans antialiased;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  @apply w-2 bg-transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-primary rounded-full;
+}
+
+/* Input Styles */
+.input {
+  @apply focus:outline-none focus:border-primary focus:ring-2 focus:ring-primary/50 transition-all duration-300;
+}
+
+/* Button Hover Effects */
+.btn {
+  @apply transform transition-all duration-300 hover:scale-105 active:scale-95;
+}
+
+/* Card Elevation */
+.card {
+  @apply shadow-md hover:shadow-xl transition-shadow duration-300;
+}
+
+/* Fade In Animation */
+@keyframes fadeIn {
+  from { 
+    opacity: 0; 
+    transform: translateY(-20px); 
+  }
+  to { 
+    opacity: 1; 
+    transform: translateY(0); 
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-out;
+}
+
+/* Form Validation Styles */
+.input-error {
+  @apply border-red-500 text-red-600 focus:border-red-500 focus:ring-red-500;
+}
+
+/* Responsive Typography */
+h1 {
+  @apply text-3xl md:text-4xl lg:text-5xl;
+}
+
+h2 {
+  @apply text-2xl md:text-3xl lg:text-4xl;
+}
+
+/* Custom Gradient Background */
+.gradient-bg {
+  background: linear-gradient(135deg, 
+    theme('colors.primary.50'), 
+    theme('colors.secondary.50')
+  );
+}
+
+/* Hover Lift Effect */
+.hover-lift {
+  @apply transition-transform duration-300 hover:-translate-y-2;
+}
+
+/* Dark Mode Considerations */
+@media (prefers-color-scheme: dark) {
+  body {
+    @apply bg-gray-900 text-gray-100;
+  }
+}
+
+/* Accessibility Improvements */
+* {
+  @apply focus:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2;
+}
+
+/* Utility Classes */
+.center-flex {
+  @apply flex items-center justify-center;
+}
+
+.glass-morphism {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+/* Custom Animations */
+.animate-pulse-slow {
+  animation: pulse 3s infinite;
+}
+
+/* Additional Custom Utilities */
+.text-shadow {
+  text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.border-gradient {
+  border-image: linear-gradient(to right, 
+    theme('colors.primary.500'), 
+    theme('colors.secondary.500')
+  ) 1;
+}
