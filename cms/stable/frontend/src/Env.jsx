@@ -25,7 +25,7 @@ export function useAuth() {
         // Store token in localStorage
         localStorage.setItem('token', response.data.token);
         setIsAuthenticated(true);
-        navigate('/hello');
+        navigate('/admin');  // Redirect to Admin page instead of Hello
         return true;
       }
     } catch (error) {
@@ -40,6 +40,7 @@ export function useAuth() {
       
       if (response.data.valid) {
         setIsAuthenticated(true);
+        navigate('/admin');  // Redirect to Admin page if token is valid
       } else {
         logout();
       }
