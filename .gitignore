@@ -1,4 +1,4 @@
-stable/frontend/node_modules/
-beta/frontend/node_modules/
-stable/backend/flask/venv/
-beta/backend/flask/venv/
+# In .gitignore
+**/node_modules/
+**/venv/
+**/__pycache__/
