@@ -1771,3 +1771,465 @@
 2025-01-17 19:10:51,511 - __main__ - INFO - Starting Flask application
 2025-01-17 19:10:51,527 - werkzeug - WARNING -  * Debugger is active!
 2025-01-17 19:10:51,528 - werkzeug - INFO -  * Debugger PIN: 621-924-358
+2025-01-17 20:50:01,116 - __main__ - INFO - Initializing application
+2025-01-17 20:50:01,117 - main_2 - INFO - Initializing database
+2025-01-17 20:50:01,119 - main_2 - DEBUG - Database connection established
+2025-01-17 20:50:01,120 - main_2 - INFO - Database initialization complete
+2025-01-17 20:50:01,120 - main_2 - INFO - Inserting sample data
+2025-01-17 20:50:01,121 - main_2 - DEBUG - Database connection established
+2025-01-17 20:50:01,122 - main_2 - INFO - Sample data already exists
+2025-01-17 20:50:01,122 - __main__ - INFO - Application initialization complete
+2025-01-17 20:50:01,122 - __main__ - INFO - Starting Flask application
+2025-01-17 20:50:01,154 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3000
+ * Running on http://10.96.0.9:3000
+2025-01-17 20:50:01,154 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-01-17 20:50:01,156 - werkzeug - INFO -  * Restarting with stat
+2025-01-17 20:50:01,626 - __main__ - INFO - Initializing application
+2025-01-17 20:50:01,627 - main_2 - INFO - Initializing database
+2025-01-17 20:50:01,627 - main_2 - DEBUG - Database connection established
+2025-01-17 20:50:01,627 - main_2 - INFO - Database initialization complete
+2025-01-17 20:50:01,628 - main_2 - INFO - Inserting sample data
+2025-01-17 20:50:01,628 - main_2 - DEBUG - Database connection established
+2025-01-17 20:50:01,628 - main_2 - INFO - Sample data already exists
+2025-01-17 20:50:01,628 - __main__ - INFO - Application initialization complete
+2025-01-17 20:50:01,629 - __main__ - INFO - Starting Flask application
+2025-01-17 20:50:01,647 - werkzeug - WARNING -  * Debugger is active!
+2025-01-17 20:50:01,648 - werkzeug - INFO -  * Debugger PIN: 172-228-307
+2025-01-17 20:50:24,634 - __main__ - INFO - Attempting to get preview for book 1
+2025-01-17 20:50:24,634 - main_2 - INFO - Attempting to retrieve book with ID: 1
+2025-01-17 20:50:24,635 - main_2 - DEBUG - Database connection established
+2025-01-17 20:50:24,635 - main_2 - INFO - Retrieving reviews for book 1
+2025-01-17 20:50:24,636 - main_2 - DEBUG - Database connection established
+2025-01-17 20:50:24,636 - main_2 - INFO - Retrieved 1 reviews for book 1
+2025-01-17 20:50:24,636 - main_2 - INFO - Book retrieved: The Sealed Nectar (ID: 1)
+2025-01-17 20:50:24,637 - __main__ - INFO - Generating preview for ./pdfs/sealed-nectar.pdf, page 0, scale 1.0
+2025-01-17 20:50:24,637 - preview - INFO - Generating preview for ./pdfs/sealed-nectar.pdf, page 0, scale 1.0
+2025-01-17 20:50:29,167 - preview - INFO - Preview generated successfully for ./pdfs/sealed-nectar.pdf
+2025-01-17 20:50:29,167 - preview - INFO - Getting total pages for ./pdfs/sealed-nectar.pdf
+2025-01-17 20:50:29,182 - preview - INFO - Total pages: 37
+2025-01-17 20:50:29,183 - __main__ - INFO - Preview generated successfully for book 1
+2025-01-17 20:50:29,184 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2025 20:50:29] "GET /api/v1/books/1/preview?page=0&scale=1.0 HTTP/1.1" 200 -
+2025-01-17 20:50:32,730 - __main__ - INFO - Attempting to get preview for book 1
+2025-01-17 20:50:32,730 - main_2 - INFO - Attempting to retrieve book with ID: 1
+2025-01-17 20:50:32,731 - main_2 - DEBUG - Database connection established
+2025-01-17 20:50:32,731 - main_2 - INFO - Retrieving reviews for book 1
+2025-01-17 20:50:32,734 - main_2 - DEBUG - Database connection established
+2025-01-17 20:50:32,734 - main_2 - INFO - Retrieved 1 reviews for book 1
+2025-01-17 20:50:32,735 - main_2 - INFO - Book retrieved: The Sealed Nectar (ID: 1)
+2025-01-17 20:50:32,736 - __main__ - INFO - Generating preview for ./pdfs/sealed-nectar.pdf, page 0, scale 1.0
+2025-01-17 20:50:32,736 - preview - INFO - Generating preview for ./pdfs/sealed-nectar.pdf, page 0, scale 1.0
+2025-01-17 20:50:37,328 - preview - INFO - Preview generated successfully for ./pdfs/sealed-nectar.pdf
+2025-01-17 20:50:37,329 - preview - INFO - Getting total pages for ./pdfs/sealed-nectar.pdf
+2025-01-17 20:50:37,334 - preview - INFO - Total pages: 37
+2025-01-17 20:50:37,334 - __main__ - INFO - Preview generated successfully for book 1
+2025-01-17 20:50:37,335 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2025 20:50:37] "GET /api/v1/books/1/preview?page=0&scale=1.0 HTTP/1.1" 200 -
+2025-01-17 20:50:45,754 - __main__ - INFO - Fetching all books
+2025-01-17 20:50:45,754 - main_2 - INFO - Retrieving all books
+2025-01-17 20:50:45,754 - main_2 - DEBUG - Database connection established
+2025-01-17 20:50:45,754 - main_2 - INFO - Retrieving reviews for book 1
+2025-01-17 20:50:45,755 - main_2 - DEBUG - Database connection established
+2025-01-17 20:50:45,755 - main_2 - INFO - Retrieved 1 reviews for book 1
+2025-01-17 20:50:45,755 - main_2 - INFO - Retrieved 1 books
+2025-01-17 20:50:45,756 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2025 20:50:45] "GET /api/v1/books/ HTTP/1.1" 200 -
+2025-01-17 20:50:58,246 - __main__ - INFO - Search query received: clean
+2025-01-17 20:50:58,247 - main_2 - INFO - Retrieving all books
+2025-01-17 20:50:58,247 - main_2 - DEBUG - Database connection established
+2025-01-17 20:50:58,247 - main_2 - INFO - Retrieving reviews for book 1
+2025-01-17 20:50:58,248 - main_2 - DEBUG - Database connection established
+2025-01-17 20:50:58,248 - main_2 - INFO - Retrieved 1 reviews for book 1
+2025-01-17 20:50:58,248 - main_2 - INFO - Retrieved 1 books
+2025-01-17 20:50:58,249 - __main__ - INFO - Search returned 0 results
+2025-01-17 20:50:58,249 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2025 20:50:58] "GET /api/v1/books/search?q=clean HTTP/1.1" 200 -
+2025-01-17 20:51:02,803 - __main__ - INFO - Retrieving page count for book 1
+2025-01-17 20:51:02,803 - main_2 - INFO - Attempting to retrieve book with ID: 1
+2025-01-17 20:51:02,803 - main_2 - DEBUG - Database connection established
+2025-01-17 20:51:02,804 - main_2 - INFO - Retrieving reviews for book 1
+2025-01-17 20:51:02,805 - main_2 - DEBUG - Database connection established
+2025-01-17 20:51:02,805 - main_2 - INFO - Retrieved 1 reviews for book 1
+2025-01-17 20:51:02,805 - main_2 - INFO - Book retrieved: The Sealed Nectar (ID: 1)
+2025-01-17 20:51:02,805 - preview - INFO - Getting total pages for ./pdfs/sealed-nectar.pdf
+2025-01-17 20:51:02,820 - preview - INFO - Total pages: 37
+2025-01-17 20:51:02,820 - __main__ - INFO - Page count retrieved: 37 for book 1
+2025-01-17 20:51:02,821 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2025 20:51:02] "GET /api/v1/books/1/page-count HTTP/1.1" 200 -
+2025-01-17 20:51:35,519 - __main__ - INFO - Retrieving page count for book 1
+2025-01-17 20:51:35,519 - main_2 - INFO - Attempting to retrieve book with ID: 1
+2025-01-17 20:51:35,519 - main_2 - DEBUG - Database connection established
+2025-01-17 20:51:35,520 - main_2 - INFO - Retrieving reviews for book 1
+2025-01-17 20:51:35,520 - main_2 - DEBUG - Database connection established
+2025-01-17 20:51:35,520 - main_2 - INFO - Retrieved 1 reviews for book 1
+2025-01-17 20:51:35,521 - main_2 - INFO - Book retrieved: The Sealed Nectar (ID: 1)
+2025-01-17 20:51:35,521 - preview - INFO - Getting total pages for ./pdfs/sealed-nectar.pdf
+2025-01-17 20:51:35,531 - preview - INFO - Total pages: 37
+2025-01-17 20:51:35,531 - __main__ - INFO - Page count retrieved: 37 for book 1
+2025-01-17 20:51:35,532 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2025 20:51:35] "GET /api/v1/books/1/page-count HTTP/1.1" 200 -
+2025-01-17 20:51:38,677 - __main__ - INFO - Retrieving page count for book 1
+2025-01-17 20:51:38,677 - main_2 - INFO - Attempting to retrieve book with ID: 1
+2025-01-17 20:51:38,677 - main_2 - DEBUG - Database connection established
+2025-01-17 20:51:38,678 - main_2 - INFO - Retrieving reviews for book 1
+2025-01-17 20:51:38,679 - main_2 - DEBUG - Database connection established
+2025-01-17 20:51:38,680 - main_2 - INFO - Retrieved 1 reviews for book 1
+2025-01-17 20:51:38,680 - main_2 - INFO - Book retrieved: The Sealed Nectar (ID: 1)
+2025-01-17 20:51:38,681 - preview - INFO - Getting total pages for ./pdfs/sealed-nectar.pdf
+2025-01-17 20:51:38,688 - preview - INFO - Total pages: 37
+2025-01-17 20:51:38,689 - __main__ - INFO - Page count retrieved: 37 for book 1
+2025-01-17 20:51:38,689 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2025 20:51:38] "GET /api/v1/books/1/page-count HTTP/1.1" 200 -
+2025-01-17 20:51:41,433 - __main__ - INFO - Retrieving page count for book 1
+2025-01-17 20:51:41,433 - main_2 - INFO - Attempting to retrieve book with ID: 1
+2025-01-17 20:51:41,433 - main_2 - DEBUG - Database connection established
+2025-01-17 20:51:41,434 - main_2 - INFO - Retrieving reviews for book 1
+2025-01-17 20:51:41,434 - main_2 - DEBUG - Database connection established
+2025-01-17 20:51:41,434 - main_2 - INFO - Retrieved 1 reviews for book 1
+2025-01-17 20:51:41,435 - main_2 - INFO - Book retrieved: The Sealed Nectar (ID: 1)
+2025-01-17 20:51:41,435 - preview - INFO - Getting total pages for ./pdfs/sealed-nectar.pdf
+2025-01-17 20:51:41,441 - preview - INFO - Total pages: 37
+2025-01-17 20:51:41,441 - __main__ - INFO - Page count retrieved: 37 for book 1
+2025-01-17 20:51:41,441 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2025 20:51:41] "GET /api/v1/books/1/page-count HTTP/1.1" 200 -
+2025-01-17 20:51:46,553 - __main__ - INFO - Search query received: clean
+2025-01-17 20:51:46,553 - main_2 - INFO - Retrieving all books
+2025-01-17 20:51:46,554 - main_2 - DEBUG - Database connection established
+2025-01-17 20:51:46,555 - main_2 - INFO - Retrieving reviews for book 1
+2025-01-17 20:51:46,555 - main_2 - DEBUG - Database connection established
+2025-01-17 20:51:46,555 - main_2 - INFO - Retrieved 1 reviews for book 1
+2025-01-17 20:51:46,556 - main_2 - INFO - Retrieved 1 books
+2025-01-17 20:51:46,556 - __main__ - INFO - Search returned 0 results
+2025-01-17 20:51:46,557 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2025 20:51:46] "GET /api/v1/books/search?q=clean HTTP/1.1" 200 -
+2025-01-17 20:52:15,939 - __main__ - INFO - Fetching all books
+2025-01-17 20:52:15,950 - main_2 - INFO - Retrieving all books
+2025-01-17 20:52:15,951 - main_2 - DEBUG - Database connection established
+2025-01-17 20:52:15,952 - main_2 - INFO - Retrieving reviews for book 1
+2025-01-17 20:52:15,952 - main_2 - DEBUG - Database connection established
+2025-01-17 20:52:15,952 - main_2 - INFO - Retrieved 1 reviews for book 1
+2025-01-17 20:52:15,953 - main_2 - INFO - Retrieved 1 books
+2025-01-17 20:52:15,953 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2025 20:52:15] "GET /api/v1/books/ HTTP/1.1" 200 -
+2025-01-17 20:52:15,972 - __main__ - INFO - Fetching all books
+2025-01-17 20:52:15,972 - main_2 - INFO - Retrieving all books
+2025-01-17 20:52:15,973 - main_2 - DEBUG - Database connection established
+2025-01-17 20:52:15,973 - main_2 - INFO - Retrieving reviews for book 1
+2025-01-17 20:52:15,975 - main_2 - DEBUG - Database connection established
+2025-01-17 20:52:15,978 - main_2 - INFO - Retrieved 1 reviews for book 1
+2025-01-17 20:52:15,978 - main_2 - INFO - Retrieved 1 books
+2025-01-17 20:52:15,979 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2025 20:52:15] "GET /api/v1/books/ HTTP/1.1" 200 -
+2025-01-17 20:52:20,747 - __main__ - INFO - Attempting to download PDF for book 1
+2025-01-17 20:52:20,747 - main_2 - INFO - Attempting to retrieve book with ID: 1
+2025-01-17 20:52:20,748 - main_2 - DEBUG - Database connection established
+2025-01-17 20:52:20,751 - main_2 - INFO - Retrieving reviews for book 1
+2025-01-17 20:52:20,751 - main_2 - DEBUG - Database connection established
+2025-01-17 20:52:20,753 - main_2 - INFO - Retrieved 1 reviews for book 1
+2025-01-17 20:52:20,753 - main_2 - INFO - Book retrieved: The Sealed Nectar (ID: 1)
+2025-01-17 20:52:20,753 - __main__ - INFO - Downloading PDF: ./pdfs/sealed-nectar.pdf
+2025-01-17 20:52:20,767 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2025 20:52:20] "GET /api/v1/books/1/download HTTP/1.1" 200 -
+2025-01-17 20:52:23,860 - __main__ - INFO - Attempting to get preview for book 1
+2025-01-17 20:52:23,861 - main_2 - INFO - Attempting to retrieve book with ID: 1
+2025-01-17 20:52:23,861 - main_2 - DEBUG - Database connection established
+2025-01-17 20:52:23,861 - main_2 - INFO - Retrieving reviews for book 1
+2025-01-17 20:52:23,862 - main_2 - DEBUG - Database connection established
+2025-01-17 20:52:23,862 - main_2 - INFO - Retrieved 1 reviews for book 1
+2025-01-17 20:52:23,863 - main_2 - INFO - Book retrieved: The Sealed Nectar (ID: 1)
+2025-01-17 20:52:23,863 - __main__ - INFO - Generating preview for ./pdfs/sealed-nectar.pdf, page 0, scale 1.0
+2025-01-17 20:52:23,863 - preview - INFO - Generating preview for ./pdfs/sealed-nectar.pdf, page 0, scale 1.0
+2025-01-17 20:52:28,284 - preview - INFO - Preview generated successfully for ./pdfs/sealed-nectar.pdf
+2025-01-17 20:52:28,284 - preview - INFO - Getting total pages for ./pdfs/sealed-nectar.pdf
+2025-01-17 20:52:28,290 - preview - INFO - Total pages: 37
+2025-01-17 20:52:28,290 - __main__ - INFO - Preview generated successfully for book 1
+2025-01-17 20:52:28,290 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2025 20:52:28] "GET /api/v1/books/1/preview?page=0&scale=1.0 HTTP/1.1" 200 -
+2025-01-17 20:52:28,322 - __main__ - INFO - Retrieving page count for book 1
+2025-01-17 20:52:28,323 - main_2 - INFO - Attempting to retrieve book with ID: 1
+2025-01-17 20:52:28,323 - main_2 - DEBUG - Database connection established
+2025-01-17 20:52:28,323 - main_2 - INFO - Retrieving reviews for book 1
+2025-01-17 20:52:28,324 - main_2 - DEBUG - Database connection established
+2025-01-17 20:52:28,324 - main_2 - INFO - Retrieved 1 reviews for book 1
+2025-01-17 20:52:28,324 - main_2 - INFO - Book retrieved: The Sealed Nectar (ID: 1)
+2025-01-17 20:52:28,325 - preview - INFO - Getting total pages for ./pdfs/sealed-nectar.pdf
+2025-01-17 20:52:28,333 - preview - INFO - Total pages: 37
+2025-01-17 20:52:28,333 - __main__ - INFO - Page count retrieved: 37 for book 1
+2025-01-17 20:52:28,334 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2025 20:52:28] "GET /api/v1/books/1/page-count HTTP/1.1" 200 -
+2025-01-17 20:53:14,600 - __main__ - INFO - Attempting to download PDF for book 1
+2025-01-17 20:53:14,600 - main_2 - INFO - Attempting to retrieve book with ID: 1
+2025-01-17 20:53:14,601 - main_2 - DEBUG - Database connection established
+2025-01-17 20:53:14,601 - main_2 - INFO - Retrieving reviews for book 1
+2025-01-17 20:53:14,601 - main_2 - DEBUG - Database connection established
+2025-01-17 20:53:14,603 - main_2 - INFO - Retrieved 1 reviews for book 1
+2025-01-17 20:53:14,604 - main_2 - INFO - Book retrieved: The Sealed Nectar (ID: 1)
+2025-01-17 20:53:14,606 - __main__ - INFO - Downloading PDF: ./pdfs/sealed-nectar.pdf
+2025-01-17 20:53:14,608 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2025 20:53:14] "[36mGET /api/v1/books/1/download HTTP/1.1[0m" 304 -
+2025-01-17 20:53:17,322 - __main__ - INFO - Attempting to get preview for book 1
+2025-01-17 20:53:17,322 - main_2 - INFO - Attempting to retrieve book with ID: 1
+2025-01-17 20:53:17,322 - main_2 - DEBUG - Database connection established
+2025-01-17 20:53:17,323 - main_2 - INFO - Retrieving reviews for book 1
+2025-01-17 20:53:17,323 - main_2 - DEBUG - Database connection established
+2025-01-17 20:53:17,324 - main_2 - INFO - Retrieved 1 reviews for book 1
+2025-01-17 20:53:17,324 - main_2 - INFO - Book retrieved: The Sealed Nectar (ID: 1)
+2025-01-17 20:53:17,324 - __main__ - INFO - Generating preview for ./pdfs/sealed-nectar.pdf, page 0, scale 1.0
+2025-01-17 20:53:17,324 - preview - INFO - Generating preview for ./pdfs/sealed-nectar.pdf, page 0, scale 1.0
+2025-01-17 20:53:21,688 - preview - INFO - Preview generated successfully for ./pdfs/sealed-nectar.pdf
+2025-01-17 20:53:21,689 - preview - INFO - Getting total pages for ./pdfs/sealed-nectar.pdf
+2025-01-17 20:53:21,696 - preview - INFO - Total pages: 37
+2025-01-17 20:53:21,696 - __main__ - INFO - Preview generated successfully for book 1
+2025-01-17 20:53:21,697 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2025 20:53:21] "GET /api/v1/books/1/preview?page=0&scale=1.0 HTTP/1.1" 200 -
+2025-01-17 20:53:21,724 - __main__ - INFO - Retrieving page count for book 1
+2025-01-17 20:53:21,725 - main_2 - INFO - Attempting to retrieve book with ID: 1
+2025-01-17 20:53:21,725 - main_2 - DEBUG - Database connection established
+2025-01-17 20:53:21,725 - main_2 - INFO - Retrieving reviews for book 1
+2025-01-17 20:53:21,726 - main_2 - DEBUG - Database connection established
+2025-01-17 20:53:21,726 - main_2 - INFO - Retrieved 1 reviews for book 1
+2025-01-17 20:53:21,726 - main_2 - INFO - Book retrieved: The Sealed Nectar (ID: 1)
+2025-01-17 20:53:21,726 - preview - INFO - Getting total pages for ./pdfs/sealed-nectar.pdf
+2025-01-17 20:53:21,735 - preview - INFO - Total pages: 37
+2025-01-17 20:53:21,735 - __main__ - INFO - Page count retrieved: 37 for book 1
+2025-01-17 20:53:21,736 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2025 20:53:21] "GET /api/v1/books/1/page-count HTTP/1.1" 200 -
+2025-01-17 21:02:29,863 - __main__ - INFO - Attempting to get preview for book 1
+2025-01-17 21:02:29,865 - main_2 - INFO - Attempting to retrieve book with ID: 1
+2025-01-17 21:02:29,872 - main_2 - DEBUG - Database connection established
+2025-01-17 21:02:29,873 - main_2 - INFO - Retrieving reviews for book 1
+2025-01-17 21:02:29,874 - main_2 - DEBUG - Database connection established
+2025-01-17 21:02:29,875 - main_2 - INFO - Retrieved 1 reviews for book 1
+2025-01-17 21:02:29,875 - main_2 - INFO - Book retrieved: The Sealed Nectar (ID: 1)
+2025-01-17 21:02:29,875 - __main__ - INFO - Generating preview for ./pdfs/sealed-nectar.pdf, page 0, scale 1.0
+2025-01-17 21:02:29,875 - preview - INFO - Generating preview for ./pdfs/sealed-nectar.pdf, page 0, scale 1.0
+2025-01-17 21:02:34,365 - preview - INFO - Preview generated successfully for ./pdfs/sealed-nectar.pdf
+2025-01-17 21:02:34,365 - preview - INFO - Getting total pages for ./pdfs/sealed-nectar.pdf
+2025-01-17 21:02:34,378 - preview - INFO - Total pages: 37
+2025-01-17 21:02:34,378 - __main__ - INFO - Preview generated successfully for book 1
+2025-01-17 21:02:34,379 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2025 21:02:34] "GET /api/v1/books/1/preview?page=0&scale=1.0 HTTP/1.1" 200 -
+2025-01-17 21:02:38,962 - __main__ - INFO - Attempting to get preview for book 1
+2025-01-17 21:02:38,962 - main_2 - INFO - Attempting to retrieve book with ID: 1
+2025-01-17 21:02:38,962 - main_2 - DEBUG - Database connection established
+2025-01-17 21:02:38,962 - main_2 - INFO - Retrieving reviews for book 1
+2025-01-17 21:02:38,963 - main_2 - DEBUG - Database connection established
+2025-01-17 21:02:38,964 - main_2 - INFO - Retrieved 1 reviews for book 1
+2025-01-17 21:02:38,964 - main_2 - INFO - Book retrieved: The Sealed Nectar (ID: 1)
+2025-01-17 21:02:38,964 - __main__ - INFO - Generating preview for ./pdfs/sealed-nectar.pdf, page 0, scale 1.0
+2025-01-17 21:02:38,964 - preview - INFO - Generating preview for ./pdfs/sealed-nectar.pdf, page 0, scale 1.0
+2025-01-17 21:02:43,424 - preview - INFO - Preview generated successfully for ./pdfs/sealed-nectar.pdf
+2025-01-17 21:02:43,424 - preview - INFO - Getting total pages for ./pdfs/sealed-nectar.pdf
+2025-01-17 21:02:43,430 - preview - INFO - Total pages: 37
+2025-01-17 21:02:43,430 - __main__ - INFO - Preview generated successfully for book 1
+2025-01-17 21:02:43,431 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2025 21:02:43] "GET /api/v1/books/1/preview?page=0&scale=1.0 HTTP/1.1" 200 -
+2025-01-17 21:02:57,566 - __main__ - INFO - Attempting to get preview for book 1
+2025-01-17 21:02:57,566 - main_2 - INFO - Attempting to retrieve book with ID: 1
+2025-01-17 21:02:57,567 - main_2 - DEBUG - Database connection established
+2025-01-17 21:02:57,568 - main_2 - INFO - Retrieving reviews for book 1
+2025-01-17 21:02:57,568 - main_2 - DEBUG - Database connection established
+2025-01-17 21:02:57,569 - main_2 - INFO - Retrieved 1 reviews for book 1
+2025-01-17 21:02:57,569 - main_2 - INFO - Book retrieved: The Sealed Nectar (ID: 1)
+2025-01-17 21:02:57,570 - __main__ - INFO - Generating preview for ./pdfs/sealed-nectar.pdf, page 0, scale 1.0
+2025-01-17 21:02:57,570 - preview - INFO - Generating preview for ./pdfs/sealed-nectar.pdf, page 0, scale 1.0
+2025-01-17 21:03:01,991 - preview - INFO - Preview generated successfully for ./pdfs/sealed-nectar.pdf
+2025-01-17 21:03:01,991 - preview - INFO - Getting total pages for ./pdfs/sealed-nectar.pdf
+2025-01-17 21:03:01,998 - preview - INFO - Total pages: 37
+2025-01-17 21:03:01,999 - __main__ - INFO - Preview generated successfully for book 1
+2025-01-17 21:03:02,000 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2025 21:03:02] "GET /api/v1/books/1/preview?page=0&scale=1.0 HTTP/1.1" 200 -
+2025-01-17 21:04:06,024 - __main__ - INFO - Attempting to get preview for book 1
+2025-01-17 21:04:06,024 - main_2 - INFO - Attempting to retrieve book with ID: 1
+2025-01-17 21:04:06,024 - main_2 - DEBUG - Database connection established
+2025-01-17 21:04:06,025 - main_2 - INFO - Retrieving reviews for book 1
+2025-01-17 21:04:06,025 - main_2 - DEBUG - Database connection established
+2025-01-17 21:04:06,025 - main_2 - INFO - Retrieved 1 reviews for book 1
+2025-01-17 21:04:06,026 - main_2 - INFO - Book retrieved: The Sealed Nectar (ID: 1)
+2025-01-17 21:04:06,026 - __main__ - INFO - Generating preview for ./pdfs/sealed-nectar.pdf, page 0, scale 1.0
+2025-01-17 21:04:06,026 - preview - INFO - Generating preview for ./pdfs/sealed-nectar.pdf, page 0, scale 1.0
+2025-01-17 21:04:10,491 - preview - INFO - Preview generated successfully for ./pdfs/sealed-nectar.pdf
+2025-01-17 21:04:10,492 - preview - INFO - Getting total pages for ./pdfs/sealed-nectar.pdf
+2025-01-17 21:04:10,500 - preview - INFO - Total pages: 37
+2025-01-17 21:04:10,500 - __main__ - INFO - Preview generated successfully for book 1
+2025-01-17 21:04:10,501 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2025 21:04:10] "GET /api/v1/books/1/preview?page=0&scale=1.0 HTTP/1.1" 200 -
+2025-01-17 21:04:58,274 - __main__ - INFO - Attempting to get preview for book 1
+2025-01-17 21:04:58,274 - main_2 - INFO - Attempting to retrieve book with ID: 1
+2025-01-17 21:04:58,274 - main_2 - DEBUG - Database connection established
+2025-01-17 21:04:58,275 - main_2 - INFO - Retrieving reviews for book 1
+2025-01-17 21:04:58,275 - main_2 - DEBUG - Database connection established
+2025-01-17 21:04:58,275 - main_2 - INFO - Retrieved 1 reviews for book 1
+2025-01-17 21:04:58,275 - main_2 - INFO - Book retrieved: The Sealed Nectar (ID: 1)
+2025-01-17 21:04:58,276 - __main__ - INFO - Generating preview for ./pdfs/sealed-nectar.pdf, page 0, scale 1.0
+2025-01-17 21:04:58,276 - preview - INFO - Generating preview for ./pdfs/sealed-nectar.pdf, page 0, scale 1.0
+2025-01-17 21:05:02,666 - preview - INFO - Preview generated successfully for ./pdfs/sealed-nectar.pdf
+2025-01-17 21:05:02,666 - preview - INFO - Getting total pages for ./pdfs/sealed-nectar.pdf
+2025-01-17 21:05:02,676 - preview - INFO - Total pages: 37
+2025-01-17 21:05:02,676 - __main__ - INFO - Preview generated successfully for book 1
+2025-01-17 21:05:02,677 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2025 21:05:02] "GET /api/v1/books/1/preview?page=0&scale=1.0 HTTP/1.1" 200 -
+2025-01-17 21:05:36,599 - __main__ - INFO - Attempting to download PDF for book 1
+2025-01-17 21:05:36,599 - main_2 - INFO - Attempting to retrieve book with ID: 1
+2025-01-17 21:05:36,599 - main_2 - DEBUG - Database connection established
+2025-01-17 21:05:36,600 - main_2 - INFO - Retrieving reviews for book 1
+2025-01-17 21:05:36,600 - main_2 - DEBUG - Database connection established
+2025-01-17 21:05:36,601 - main_2 - INFO - Retrieved 1 reviews for book 1
+2025-01-17 21:05:36,601 - main_2 - INFO - Book retrieved: The Sealed Nectar (ID: 1)
+2025-01-17 21:05:36,601 - __main__ - INFO - Downloading PDF: ./pdfs/sealed-nectar.pdf
+2025-01-17 21:05:36,603 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2025 21:05:36] "GET /api/v1/books/1/download HTTP/1.1" 200 -
+2025-01-17 21:06:16,185 - __main__ - INFO - Attempting to download PDF for book 1
+2025-01-17 21:06:16,185 - main_2 - INFO - Attempting to retrieve book with ID: 1
+2025-01-17 21:06:16,185 - main_2 - DEBUG - Database connection established
+2025-01-17 21:06:16,185 - main_2 - INFO - Retrieving reviews for book 1
+2025-01-17 21:06:16,186 - main_2 - DEBUG - Database connection established
+2025-01-17 21:06:16,186 - main_2 - INFO - Retrieved 1 reviews for book 1
+2025-01-17 21:06:16,186 - main_2 - INFO - Book retrieved: The Sealed Nectar (ID: 1)
+2025-01-17 21:06:16,187 - __main__ - INFO - Downloading PDF: ./pdfs/sealed-nectar.pdf
+2025-01-17 21:06:16,188 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2025 21:06:16] "GET /api/v1/books/1/download HTTP/1.1" 200 -
+2025-01-17 21:07:09,435 - __main__ - INFO - Fetching all books
+2025-01-17 21:07:09,435 - main_2 - INFO - Retrieving all books
+2025-01-17 21:07:09,435 - main_2 - DEBUG - Database connection established
+2025-01-17 21:07:09,436 - main_2 - INFO - Retrieving reviews for book 1
+2025-01-17 21:07:09,436 - main_2 - DEBUG - Database connection established
+2025-01-17 21:07:09,437 - main_2 - INFO - Retrieved 1 reviews for book 1
+2025-01-17 21:07:09,437 - main_2 - INFO - Retrieved 1 books
+2025-01-17 21:07:09,438 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2025 21:07:09] "GET /api/v1/books/ HTTP/1.1" 200 -
+2025-01-17 21:07:21,409 - __main__ - INFO - Fetching all books
+2025-01-17 21:07:21,410 - main_2 - INFO - Retrieving all books
+2025-01-17 21:07:21,410 - main_2 - DEBUG - Database connection established
+2025-01-17 21:07:21,410 - main_2 - INFO - Retrieving reviews for book 1
+2025-01-17 21:07:21,411 - main_2 - DEBUG - Database connection established
+2025-01-17 21:07:21,411 - main_2 - INFO - Retrieved 1 reviews for book 1
+2025-01-17 21:07:21,411 - main_2 - INFO - Retrieved 1 books
+2025-01-17 21:07:21,412 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2025 21:07:21] "GET /api/v1/books/ HTTP/1.1" 200 -
+2025-01-17 21:07:30,470 - __main__ - INFO - Retrieving page count for book 1
+2025-01-17 21:07:30,470 - main_2 - INFO - Attempting to retrieve book with ID: 1
+2025-01-17 21:07:30,471 - main_2 - DEBUG - Database connection established
+2025-01-17 21:07:30,471 - main_2 - INFO - Retrieving reviews for book 1
+2025-01-17 21:07:30,472 - main_2 - DEBUG - Database connection established
+2025-01-17 21:07:30,472 - main_2 - INFO - Retrieved 1 reviews for book 1
+2025-01-17 21:07:30,472 - main_2 - INFO - Book retrieved: The Sealed Nectar (ID: 1)
+2025-01-17 21:07:30,472 - preview - INFO - Getting total pages for ./pdfs/sealed-nectar.pdf
+2025-01-17 21:07:30,479 - preview - INFO - Total pages: 37
+2025-01-17 21:07:30,479 - __main__ - INFO - Page count retrieved: 37 for book 1
+2025-01-17 21:07:30,480 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2025 21:07:30] "GET /api/v1/books/1/page-count HTTP/1.1" 200 -
+2025-01-17 21:07:47,905 - __main__ - INFO - Retrieving page count for book 1
+2025-01-17 21:07:47,905 - main_2 - INFO - Attempting to retrieve book with ID: 1
+2025-01-17 21:07:47,906 - main_2 - DEBUG - Database connection established
+2025-01-17 21:07:47,906 - main_2 - INFO - Retrieving reviews for book 1
+2025-01-17 21:07:47,907 - main_2 - DEBUG - Database connection established
+2025-01-17 21:07:47,907 - main_2 - INFO - Retrieved 1 reviews for book 1
+2025-01-17 21:07:47,911 - main_2 - INFO - Book retrieved: The Sealed Nectar (ID: 1)
+2025-01-17 21:07:47,911 - preview - INFO - Getting total pages for ./pdfs/sealed-nectar.pdf
+2025-01-17 21:07:47,926 - preview - INFO - Total pages: 37
+2025-01-17 21:07:47,927 - __main__ - INFO - Page count retrieved: 37 for book 1
+2025-01-17 21:07:47,928 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2025 21:07:47] "GET /api/v1/books/1/page-count HTTP/1.1" 200 -
+2025-01-17 21:08:04,432 - __main__ - INFO - Retrieving page count for book 1
+2025-01-17 21:08:04,432 - main_2 - INFO - Attempting to retrieve book with ID: 1
+2025-01-17 21:08:04,432 - main_2 - DEBUG - Database connection established
+2025-01-17 21:08:04,433 - main_2 - INFO - Retrieving reviews for book 1
+2025-01-17 21:08:04,434 - main_2 - DEBUG - Database connection established
+2025-01-17 21:08:04,434 - main_2 - INFO - Retrieved 1 reviews for book 1
+2025-01-17 21:08:04,435 - main_2 - INFO - Book retrieved: The Sealed Nectar (ID: 1)
+2025-01-17 21:08:04,435 - preview - INFO - Getting total pages for ./pdfs/sealed-nectar.pdf
+2025-01-17 21:08:04,446 - preview - INFO - Total pages: 37
+2025-01-17 21:08:04,446 - __main__ - INFO - Page count retrieved: 37 for book 1
+2025-01-17 21:08:04,447 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2025 21:08:04] "GET /api/v1/books/1/page-count HTTP/1.1" 200 -
+2025-01-17 21:08:15,832 - __main__ - INFO - Search query received: clean
+2025-01-17 21:08:15,833 - main_2 - INFO - Retrieving all books
+2025-01-17 21:08:15,833 - main_2 - DEBUG - Database connection established
+2025-01-17 21:08:15,834 - main_2 - INFO - Retrieving reviews for book 1
+2025-01-17 21:08:15,834 - main_2 - DEBUG - Database connection established
+2025-01-17 21:08:15,835 - main_2 - INFO - Retrieved 1 reviews for book 1
+2025-01-17 21:08:15,835 - main_2 - INFO - Retrieved 1 books
+2025-01-17 21:08:15,835 - __main__ - INFO - Search returned 0 results
+2025-01-17 21:08:15,836 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2025 21:08:15] "GET /api/v1/books/search?q=clean HTTP/1.1" 200 -
+2025-01-17 21:08:20,563 - __main__ - INFO - Search query received: clean
+2025-01-17 21:08:20,564 - main_2 - INFO - Retrieving all books
+2025-01-17 21:08:20,564 - main_2 - DEBUG - Database connection established
+2025-01-17 21:08:20,564 - main_2 - INFO - Retrieving reviews for book 1
+2025-01-17 21:08:20,565 - main_2 - DEBUG - Database connection established
+2025-01-17 21:08:20,565 - main_2 - INFO - Retrieved 1 reviews for book 1
+2025-01-17 21:08:20,565 - main_2 - INFO - Retrieved 1 books
+2025-01-17 21:08:20,565 - __main__ - INFO - Search returned 0 results
+2025-01-17 21:08:20,566 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2025 21:08:20] "GET /api/v1/books/search?q=clean HTTP/1.1" 200 -
+2025-01-17 21:08:24,546 - __main__ - INFO - Search query received: clean
+2025-01-17 21:08:24,547 - main_2 - INFO - Retrieving all books
+2025-01-17 21:08:24,547 - main_2 - DEBUG - Database connection established
+2025-01-17 21:08:24,548 - main_2 - INFO - Retrieving reviews for book 1
+2025-01-17 21:08:24,550 - main_2 - DEBUG - Database connection established
+2025-01-17 21:08:24,551 - main_2 - INFO - Retrieved 1 reviews for book 1
+2025-01-17 21:08:24,551 - main_2 - INFO - Retrieved 1 books
+2025-01-17 21:08:24,551 - __main__ - INFO - Search returned 0 results
+2025-01-17 21:08:24,552 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2025 21:08:24] "GET /api/v1/books/search?q=clean HTTP/1.1" 200 -
+2025-01-17 21:08:40,252 - __main__ - INFO - Retrieving page count for book 1
+2025-01-17 21:08:40,252 - main_2 - INFO - Attempting to retrieve book with ID: 1
+2025-01-17 21:08:40,252 - main_2 - DEBUG - Database connection established
+2025-01-17 21:08:40,253 - main_2 - INFO - Retrieving reviews for book 1
+2025-01-17 21:08:40,253 - main_2 - DEBUG - Database connection established
+2025-01-17 21:08:40,253 - main_2 - INFO - Retrieved 1 reviews for book 1
+2025-01-17 21:08:40,254 - main_2 - INFO - Book retrieved: The Sealed Nectar (ID: 1)
+2025-01-17 21:08:40,254 - preview - INFO - Getting total pages for ./pdfs/sealed-nectar.pdf
+2025-01-17 21:08:40,265 - preview - INFO - Total pages: 37
+2025-01-17 21:08:40,265 - __main__ - INFO - Page count retrieved: 37 for book 1
+2025-01-17 21:08:40,265 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2025 21:08:40] "GET /api/v1/books/1/page-count HTTP/1.1" 200 -
+2025-01-17 21:08:54,047 - __main__ - INFO - Search query received: clean
+2025-01-17 21:08:54,047 - main_2 - INFO - Retrieving all books
+2025-01-17 21:08:54,047 - main_2 - DEBUG - Database connection established
+2025-01-17 21:08:54,047 - main_2 - INFO - Retrieving reviews for book 1
+2025-01-17 21:08:54,048 - main_2 - DEBUG - Database connection established
+2025-01-17 21:08:54,049 - main_2 - INFO - Retrieved 1 reviews for book 1
+2025-01-17 21:08:54,049 - main_2 - INFO - Retrieved 1 books
+2025-01-17 21:08:54,049 - __main__ - INFO - Search returned 0 results
+2025-01-17 21:08:54,050 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2025 21:08:54] "GET /api/v1/books/search?q=clean HTTP/1.1" 200 -
+2025-01-17 21:10:02,463 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2025 21:10:02] "[32mGET /api/v1/books HTTP/1.1[0m" 308 -
+2025-01-17 21:10:52,274 - __main__ - INFO - Search query received: clean
+2025-01-17 21:10:52,275 - main_2 - INFO - Retrieving all books
+2025-01-17 21:10:52,275 - main_2 - DEBUG - Database connection established
+2025-01-17 21:10:52,275 - main_2 - INFO - Retrieving reviews for book 1
+2025-01-17 21:10:52,275 - main_2 - DEBUG - Database connection established
+2025-01-17 21:10:52,276 - main_2 - INFO - Retrieved 1 reviews for book 1
+2025-01-17 21:10:52,276 - main_2 - INFO - Retrieved 1 books
+2025-01-17 21:10:52,276 - __main__ - INFO - Search returned 0 results
+2025-01-17 21:10:52,277 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2025 21:10:52] "GET /api/v1/books/search?q=clean HTTP/1.1" 200 -
+2025-01-17 21:11:01,417 - __main__ - INFO - Attempting to get preview for book 1
+2025-01-17 21:11:01,418 - main_2 - INFO - Attempting to retrieve book with ID: 1
+2025-01-17 21:11:01,418 - main_2 - DEBUG - Database connection established
+2025-01-17 21:11:01,418 - main_2 - INFO - Retrieving reviews for book 1
+2025-01-17 21:11:01,419 - main_2 - DEBUG - Database connection established
+2025-01-17 21:11:01,419 - main_2 - INFO - Retrieved 1 reviews for book 1
+2025-01-17 21:11:01,419 - main_2 - INFO - Book retrieved: The Sealed Nectar (ID: 1)
+2025-01-17 21:11:01,419 - __main__ - INFO - Generating preview for ./pdfs/sealed-nectar.pdf, page 0, scale 1.0
+2025-01-17 21:11:01,420 - preview - INFO - Generating preview for ./pdfs/sealed-nectar.pdf, page 0, scale 1.0
+2025-01-17 21:11:05,880 - preview - INFO - Preview generated successfully for ./pdfs/sealed-nectar.pdf
+2025-01-17 21:11:05,881 - preview - INFO - Getting total pages for ./pdfs/sealed-nectar.pdf
+2025-01-17 21:11:05,887 - preview - INFO - Total pages: 37
+2025-01-17 21:11:05,887 - __main__ - INFO - Preview generated successfully for book 1
+2025-01-17 21:11:05,888 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2025 21:11:05] "GET /api/v1/books/1/preview?page=0&scale=1.0 HTTP/1.1" 200 -
+2025-01-17 21:12:24,242 - __main__ - INFO - Attempting to get preview for book 1
+2025-01-17 21:12:24,242 - main_2 - INFO - Attempting to retrieve book with ID: 1
+2025-01-17 21:12:24,242 - main_2 - DEBUG - Database connection established
+2025-01-17 21:12:24,242 - main_2 - INFO - Retrieving reviews for book 1
+2025-01-17 21:12:24,243 - main_2 - DEBUG - Database connection established
+2025-01-17 21:12:24,243 - main_2 - INFO - Retrieved 1 reviews for book 1
+2025-01-17 21:12:24,243 - main_2 - INFO - Book retrieved: The Sealed Nectar (ID: 1)
+2025-01-17 21:12:24,243 - __main__ - INFO - Generating preview for ./pdfs/sealed-nectar.pdf, page 0, scale 1.0
+2025-01-17 21:12:24,243 - preview - INFO - Generating preview for ./pdfs/sealed-nectar.pdf, page 0, scale 1.0
+2025-01-17 21:12:28,656 - preview - INFO - Preview generated successfully for ./pdfs/sealed-nectar.pdf
+2025-01-17 21:12:28,656 - preview - INFO - Getting total pages for ./pdfs/sealed-nectar.pdf
+2025-01-17 21:12:28,664 - preview - INFO - Total pages: 37
+2025-01-17 21:12:28,664 - __main__ - INFO - Preview generated successfully for book 1
+2025-01-17 21:12:28,664 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2025 21:12:28] "GET /api/v1/books/1/preview?page=0&scale=1.0 HTTP/1.1" 200 -
+2025-01-17 21:14:37,437 - __main__ - INFO - Attempting to get preview for book 1
+2025-01-17 21:14:37,437 - main_2 - INFO - Attempting to retrieve book with ID: 1
+2025-01-17 21:14:37,437 - main_2 - DEBUG - Database connection established
+2025-01-17 21:14:37,437 - main_2 - INFO - Retrieving reviews for book 1
+2025-01-17 21:14:37,438 - main_2 - DEBUG - Database connection established
+2025-01-17 21:14:37,438 - main_2 - INFO - Retrieved 1 reviews for book 1
+2025-01-17 21:14:37,438 - main_2 - INFO - Book retrieved: The Sealed Nectar (ID: 1)
+2025-01-17 21:14:37,438 - __main__ - INFO - Generating preview for ./pdfs/sealed-nectar.pdf, page 0, scale 1.0
+2025-01-17 21:14:37,439 - preview - INFO - Generating preview for ./pdfs/sealed-nectar.pdf, page 0, scale 1.0
+2025-01-17 21:14:42,005 - preview - INFO - Preview generated successfully for ./pdfs/sealed-nectar.pdf
+2025-01-17 21:14:42,005 - preview - INFO - Getting total pages for ./pdfs/sealed-nectar.pdf
+2025-01-17 21:14:42,013 - preview - INFO - Total pages: 37
+2025-01-17 21:14:42,014 - __main__ - INFO - Preview generated successfully for book 1
+2025-01-17 21:14:42,016 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2025 21:14:42] "GET /api/v1/books/1/preview?page=0&scale=1.0 HTTP/1.1" 200 -
+2025-01-17 21:14:45,881 - __main__ - INFO - Search query received: clean
+2025-01-17 21:14:45,881 - main_2 - INFO - Retrieving all books
+2025-01-17 21:14:45,882 - main_2 - DEBUG - Database connection established
+2025-01-17 21:14:45,882 - main_2 - INFO - Retrieving reviews for book 1
+2025-01-17 21:14:45,882 - main_2 - DEBUG - Database connection established
+2025-01-17 21:14:45,883 - main_2 - INFO - Retrieved 1 reviews for book 1
+2025-01-17 21:14:45,883 - main_2 - INFO - Retrieved 1 books
+2025-01-17 21:14:45,883 - __main__ - INFO - Search returned 0 results
+2025-01-17 21:14:45,884 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2025 21:14:45] "GET /api/v1/books/search?q=clean HTTP/1.1" 200 -
+2025-01-17 21:14:51,877 - __main__ - INFO - Search query received: clean
+2025-01-17 21:14:51,877 - main_2 - INFO - Retrieving all books
+2025-01-17 21:14:51,877 - main_2 - DEBUG - Database connection established
+2025-01-17 21:14:51,878 - main_2 - INFO - Retrieving reviews for book 1
+2025-01-17 21:14:51,878 - main_2 - DEBUG - Database connection established
+2025-01-17 21:14:51,878 - main_2 - INFO - Retrieved 1 reviews for book 1
+2025-01-17 21:14:51,878 - main_2 - INFO - Retrieved 1 books
+2025-01-17 21:14:51,879 - __main__ - INFO - Search returned 0 results
+2025-01-17 21:14:51,879 - werkzeug - INFO - 127.0.0.1 - - [17/Jan/2025 21:14:51] "GET /api/v1/books/search?q=clean HTTP/1.1" 200 -
