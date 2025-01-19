@@ -1,0 +1,276 @@
+2025-01-19 20:38:27 - DEBUG - [debug.py:60] - Request Details:
+{
+  "method": "OPTIONS",
+  "url": "http://localhost:5000/api/login",
+  "headers": {
+    "Host": "localhost:5000",
+    "Connection": "keep-alive",
+    "Accept": "*/*",
+    "Access-Control-Request-Method": "POST",
+    "Access-Control-Request-Headers": "content-type",
+    "Origin": "http://localhost:5173",
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
+    "Sec-Fetch-Mode": "cors",
+    "Sec-Fetch-Site": "same-site",
+    "Sec-Fetch-Dest": "empty",
+    "Referer": "http://localhost:5173/",
+    "Accept-Encoding": "gzip, deflate, br, zstd",
+    "Accept-Language": "en-US,en;q=0.9"
+  },
+  "body": "b''"
+}
+2025-01-19 20:38:27 - DEBUG - [debug.py:94] - Response Details:
+{
+  "status_code": 200,
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8",
+    "Allow": "OPTIONS, POST"
+  },
+  "body": "b''"
+}
+2025-01-19 20:38:28 - DEBUG - [debug.py:60] - Request Details:
+{
+  "method": "POST",
+  "url": "http://localhost:5000/api/login",
+  "headers": {
+    "Host": "localhost:5000",
+    "Connection": "keep-alive",
+    "Content-Length": "50",
+    "Sec-Ch-Ua-Platform": "\"Linux\"",
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
+    "Accept": "application/json, text/plain, */*",
+    "Sec-Ch-Ua": "\"Chromium\";v=\"130\", \"Google Chrome\";v=\"130\", \"Not?A_Brand\";v=\"99\"",
+    "Content-Type": "application/json",
+    "Sec-Ch-Ua-Mobile": "?0",
+    "Origin": "http://localhost:5173",
+    "Sec-Fetch-Site": "same-site",
+    "Sec-Fetch-Mode": "cors",
+    "Sec-Fetch-Dest": "empty",
+    "Referer": "http://localhost:5173/",
+    "Accept-Encoding": "gzip, deflate, br, zstd",
+    "Accept-Language": "en-US,en;q=0.9"
+  },
+  "body": {
+    "email": "kali@kali.com",
+    "password": "********"
+  }
+}
+2025-01-19 20:38:28 - DEBUG - [debug.py:94] - Response Details:
+{
+  "status_code": 500,
+  "headers": {
+    "Content-Type": "application/json",
+    "Content-Length": "69"
+  },
+  "body": {
+    "message": "Internal authentication error",
+    "success": false
+  }
+}
+2025-01-19 20:38:44 - DEBUG - [debug.py:60] - Request Details:
+{
+  "method": "OPTIONS",
+  "url": "http://localhost:5000/api/login",
+  "headers": {
+    "Host": "localhost:5000",
+    "Connection": "keep-alive",
+    "Accept": "*/*",
+    "Access-Control-Request-Method": "POST",
+    "Access-Control-Request-Headers": "content-type",
+    "Origin": "http://localhost:5173",
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
+    "Sec-Fetch-Mode": "cors",
+    "Sec-Fetch-Site": "same-site",
+    "Sec-Fetch-Dest": "empty",
+    "Referer": "http://localhost:5173/",
+    "Accept-Encoding": "gzip, deflate, br, zstd",
+    "Accept-Language": "en-US,en;q=0.9"
+  },
+  "body": "b''"
+}
+2025-01-19 20:38:44 - DEBUG - [debug.py:94] - Response Details:
+{
+  "status_code": 200,
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8",
+    "Allow": "OPTIONS, POST"
+  },
+  "body": "b''"
+}
+2025-01-19 20:38:44 - DEBUG - [debug.py:60] - Request Details:
+{
+  "method": "POST",
+  "url": "http://localhost:5000/api/login",
+  "headers": {
+    "Host": "localhost:5000",
+    "Connection": "keep-alive",
+    "Content-Length": "50",
+    "Sec-Ch-Ua-Platform": "\"Linux\"",
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
+    "Accept": "application/json, text/plain, */*",
+    "Sec-Ch-Ua": "\"Chromium\";v=\"130\", \"Google Chrome\";v=\"130\", \"Not?A_Brand\";v=\"99\"",
+    "Content-Type": "application/json",
+    "Sec-Ch-Ua-Mobile": "?0",
+    "Origin": "http://localhost:5173",
+    "Sec-Fetch-Site": "same-site",
+    "Sec-Fetch-Mode": "cors",
+    "Sec-Fetch-Dest": "empty",
+    "Referer": "http://localhost:5173/",
+    "Accept-Encoding": "gzip, deflate, br, zstd",
+    "Accept-Language": "en-US,en;q=0.9"
+  },
+  "body": {
+    "email": "kali@kali.com",
+    "password": "********"
+  }
+}
+2025-01-19 20:38:44 - DEBUG - [debug.py:94] - Response Details:
+{
+  "status_code": 500,
+  "headers": {
+    "Content-Type": "application/json",
+    "Content-Length": "69"
+  },
+  "body": {
+    "message": "Internal authentication error",
+    "success": false
+  }
+}
+2025-01-19 20:39:15 - DEBUG - [debug.py:60] - Request Details:
+{
+  "method": "OPTIONS",
+  "url": "http://localhost:5000/api/login",
+  "headers": {
+    "Host": "localhost:5000",
+    "Connection": "keep-alive",
+    "Accept": "*/*",
+    "Access-Control-Request-Method": "POST",
+    "Access-Control-Request-Headers": "content-type",
+    "Origin": "http://localhost:5173",
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
+    "Sec-Fetch-Mode": "cors",
+    "Sec-Fetch-Site": "same-site",
+    "Sec-Fetch-Dest": "empty",
+    "Referer": "http://localhost:5173/",
+    "Accept-Encoding": "gzip, deflate, br, zstd",
+    "Accept-Language": "en-US,en;q=0.9"
+  },
+  "body": "b''"
+}
+2025-01-19 20:39:15 - DEBUG - [debug.py:94] - Response Details:
+{
+  "status_code": 200,
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8",
+    "Allow": "OPTIONS, POST"
+  },
+  "body": "b''"
+}
+2025-01-19 20:39:15 - DEBUG - [debug.py:60] - Request Details:
+{
+  "method": "POST",
+  "url": "http://localhost:5000/api/login",
+  "headers": {
+    "Host": "localhost:5000",
+    "Connection": "keep-alive",
+    "Content-Length": "50",
+    "Sec-Ch-Ua-Platform": "\"Linux\"",
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
+    "Accept": "application/json, text/plain, */*",
+    "Sec-Ch-Ua": "\"Chromium\";v=\"130\", \"Google Chrome\";v=\"130\", \"Not?A_Brand\";v=\"99\"",
+    "Content-Type": "application/json",
+    "Sec-Ch-Ua-Mobile": "?0",
+    "Origin": "http://localhost:5173",
+    "Sec-Fetch-Site": "same-site",
+    "Sec-Fetch-Mode": "cors",
+    "Sec-Fetch-Dest": "empty",
+    "Referer": "http://localhost:5173/",
+    "Accept-Encoding": "gzip, deflate, br, zstd",
+    "Accept-Language": "en-US,en;q=0.9"
+  },
+  "body": {
+    "email": "kali@kali.com",
+    "password": "********"
+  }
+}
+2025-01-19 20:39:15 - DEBUG - [debug.py:94] - Response Details:
+{
+  "status_code": 500,
+  "headers": {
+    "Content-Type": "application/json",
+    "Content-Length": "69"
+  },
+  "body": {
+    "message": "Internal authentication error",
+    "success": false
+  }
+}
+2025-01-19 20:50:15 - DEBUG - [debug.py:60] - Request Details:
+{
+  "method": "OPTIONS",
+  "url": "http://localhost:5000/api/login",
+  "headers": {
+    "Host": "localhost:5000",
+    "Connection": "keep-alive",
+    "Accept": "*/*",
+    "Access-Control-Request-Method": "POST",
+    "Access-Control-Request-Headers": "content-type",
+    "Origin": "http://localhost:5173",
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
+    "Sec-Fetch-Mode": "cors",
+    "Sec-Fetch-Site": "same-site",
+    "Sec-Fetch-Dest": "empty",
+    "Referer": "http://localhost:5173/",
+    "Accept-Encoding": "gzip, deflate, br, zstd",
+    "Accept-Language": "en-US,en;q=0.9"
+  },
+  "body": "b''"
+}
+2025-01-19 20:50:15 - DEBUG - [debug.py:94] - Response Details:
+{
+  "status_code": 200,
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8",
+    "Allow": "OPTIONS, POST"
+  },
+  "body": "b''"
+}
+2025-01-19 20:50:15 - DEBUG - [debug.py:60] - Request Details:
+{
+  "method": "POST",
+  "url": "http://localhost:5000/api/login",
+  "headers": {
+    "Host": "localhost:5000",
+    "Connection": "keep-alive",
+    "Content-Length": "50",
+    "Sec-Ch-Ua-Platform": "\"Linux\"",
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
+    "Accept": "application/json, text/plain, */*",
+    "Sec-Ch-Ua": "\"Chromium\";v=\"130\", \"Google Chrome\";v=\"130\", \"Not?A_Brand\";v=\"99\"",
+    "Content-Type": "application/json",
+    "Sec-Ch-Ua-Mobile": "?0",
+    "Origin": "http://localhost:5173",
+    "Sec-Fetch-Site": "same-site",
+    "Sec-Fetch-Mode": "cors",
+    "Sec-Fetch-Dest": "empty",
+    "Referer": "http://localhost:5173/",
+    "Accept-Encoding": "gzip, deflate, br, zstd",
+    "Accept-Language": "en-US,en;q=0.9"
+  },
+  "body": {
+    "email": "kali@kali.com",
+    "password": "********"
+  }
+}
+2025-01-19 20:50:15 - DEBUG - [debug.py:94] - Response Details:
+{
+  "status_code": 500,
+  "headers": {
+    "Content-Type": "application/json",
+    "Content-Length": "69"
+  },
+  "body": {
+    "message": "Internal authentication error",
+    "success": false
+  }
+}

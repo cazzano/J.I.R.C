@@ -1,0 +1,253 @@
+2025-01-19 19:55:46,724 - main - ERROR - Unexpected login error: Invalid salt
+2025-01-19 19:56:01,099 - main - ERROR - Unexpected login error: Invalid salt
+2025-01-19 20:06:12,148 - main - ERROR - Unexpected login error: Invalid salt
+2025-01-19 20:06:14,502 - main - ERROR - Unexpected login error: Invalid salt
+2025-01-19 20:14:20,733 - main - ERROR - Unexpected login error: Invalid salt
+2025-01-19 20:17:19,673 - main - ERROR - Unexpected login error: Invalid salt
+2025-01-19 20:20:02,572 - main - ERROR - Unexpected login error: Invalid salt
+2025-01-19 20:21:52,573 - main - ERROR - Password verification error: Invalid salt
+2025-01-19 20:24:08 - main - DEBUG - Stored password for kali@kali.com: password123
+Full Traceback:
+None
+2025-01-19 20:24:08 - main - DEBUG - Stored password type: <class 'str'>
+Full Traceback:
+None
+2025-01-19 20:24:08 - main - DEBUG - Stored password value: password123
+Full Traceback:
+None
+2025-01-19 20:24:08 - main - ERROR - Bcrypt verification error: Invalid salt
+Full Traceback:
+None
+2025-01-19 20:24:08 - main - ERROR - Comprehensive password verification error: Invalid salt
+Full Traceback:
+None
+2025-01-19 20:24:08 - main - ERROR - Full traceback: Traceback (most recent call last):
+  File "/home/cazzano/DB/Emergency/Coding/Github_Projects/J.I.R.C/cms/beta/backend/main.py", line 86, in verify_password
+    return bcrypt.checkpw(provided_password, stored_password)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Invalid salt
+
+Full Traceback:
+None
+2025-01-19 20:24:08 - main - ERROR - Detailed password verification error: Invalid salt
+Full Traceback:
+None
+2025-01-19 20:24:08 - main - ERROR - Full traceback: Traceback (most recent call last):
+  File "/home/cazzano/DB/Emergency/Coding/Github_Projects/J.I.R.C/cms/beta/backend/main.py", line 143, in login
+    if verify_password(password, stored_password):
+       ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cazzano/DB/Emergency/Coding/Github_Projects/J.I.R.C/cms/beta/backend/main.py", line 86, in verify_password
+    return bcrypt.checkpw(provided_password, stored_password)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Invalid salt
+
+Full Traceback:
+None
+2025-01-19 20:24:51 - main - DEBUG - Stored password for kali@kali.com: password123
+Full Traceback:
+None
+2025-01-19 20:24:51 - main - DEBUG - Stored password type: <class 'str'>
+Full Traceback:
+None
+2025-01-19 20:24:51 - main - DEBUG - Stored password value: password123
+Full Traceback:
+None
+2025-01-19 20:24:51 - main - ERROR - Bcrypt verification error: Invalid salt
+Full Traceback:
+None
+2025-01-19 20:24:51 - main - ERROR - Comprehensive password verification error: Invalid salt
+Full Traceback:
+None
+2025-01-19 20:24:51 - main - ERROR - Full traceback: Traceback (most recent call last):
+  File "/home/cazzano/DB/Emergency/Coding/Github_Projects/J.I.R.C/cms/beta/backend/main.py", line 86, in verify_password
+    return bcrypt.checkpw(provided_password, stored_password)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Invalid salt
+
+Full Traceback:
+None
+2025-01-19 20:24:51 - main - ERROR - Detailed password verification error: Invalid salt
+Full Traceback:
+None
+2025-01-19 20:24:51 - main - ERROR - Full traceback: Traceback (most recent call last):
+  File "/home/cazzano/DB/Emergency/Coding/Github_Projects/J.I.R.C/cms/beta/backend/main.py", line 143, in login
+    if verify_password(password, stored_password):
+       ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cazzano/DB/Emergency/Coding/Github_Projects/J.I.R.C/cms/beta/backend/main.py", line 86, in verify_password
+    return bcrypt.checkpw(provided_password, stored_password)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Invalid salt
+
+Full Traceback:
+None
+2025-01-19 20:25:59 - main - DEBUG - Stored password for kali@kali.com: password123
+Full Traceback:
+None
+2025-01-19 20:25:59 - main - DEBUG - Stored password type: <class 'str'>
+Full Traceback:
+None
+2025-01-19 20:25:59 - main - DEBUG - Stored password value: password123
+Full Traceback:
+None
+2025-01-19 20:25:59 - main - ERROR - Bcrypt verification error: Invalid salt
+Full Traceback:
+None
+2025-01-19 20:25:59 - main - ERROR - Comprehensive password verification error: Invalid salt
+Full Traceback:
+None
+2025-01-19 20:25:59 - main - ERROR - Full traceback: Traceback (most recent call last):
+  File "/home/cazzano/DB/Emergency/Coding/Github_Projects/J.I.R.C/cms/beta/backend/main.py", line 86, in verify_password
+    return bcrypt.checkpw(provided_password, stored_password)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Invalid salt
+
+Full Traceback:
+None
+2025-01-19 20:25:59 - main - ERROR - Detailed password verification error: Invalid salt
+Full Traceback:
+None
+2025-01-19 20:25:59 - main - ERROR - Full traceback: Traceback (most recent call last):
+  File "/home/cazzano/DB/Emergency/Coding/Github_Projects/J.I.R.C/cms/beta/backend/main.py", line 143, in login
+    if verify_password(password, stored_password):
+       ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cazzano/DB/Emergency/Coding/Github_Projects/J.I.R.C/cms/beta/backend/main.py", line 86, in verify_password
+    return bcrypt.checkpw(provided_password, stored_password)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Invalid salt
+
+Full Traceback:
+None
+2025-01-19 20:28:06 - main - DEBUG - Stored password for kali@kali.com: password123
+Full Traceback:
+None
+2025-01-19 20:28:06 - main - DEBUG - Stored password type: <class 'str'>
+Full Traceback:
+None
+2025-01-19 20:28:06 - main - DEBUG - Stored password value: password123
+Full Traceback:
+None
+2025-01-19 20:28:06 - main - DEBUG - Attempting password verification
+Full Traceback:
+None
+2025-01-19 20:28:06 - main - DEBUG - Provided password bytes: b'password123'
+Full Traceback:
+None
+2025-01-19 20:28:06 - main - DEBUG - Stored password bytes: b'password123'
+Full Traceback:
+None
+2025-01-19 20:28:06 - main - ERROR - Bcrypt verification error: Invalid salt
+Full Traceback:
+None
+2025-01-19 20:28:06 - main - ERROR - Full traceback: Traceback (most recent call last):
+  File "/home/cazzano/DB/Emergency/Coding/Github_Projects/J.I.R.C/cms/beta/backend/main.py", line 82, in verify_password
+    verification_result = bcrypt.checkpw(provided_password, stored_password)
+ValueError: Invalid salt
+
+Full Traceback:
+None
+2025-01-19 20:28:06 - main - ERROR - Comprehensive password verification error: Invalid salt
+Full Traceback:
+None
+2025-01-19 20:28:06 - main - ERROR - Full traceback: Traceback (most recent call last):
+  File "/home/cazzano/DB/Emergency/Coding/Github_Projects/J.I.R.C/cms/beta/backend/main.py", line 82, in verify_password
+    verification_result = bcrypt.checkpw(provided_password, stored_password)
+ValueError: Invalid salt
+
+Full Traceback:
+None
+2025-01-19 20:28:06 - main - ERROR - Detailed password verification error: Invalid salt
+Full Traceback:
+None
+2025-01-19 20:28:06 - main - ERROR - Full traceback: Traceback (most recent call last):
+  File "/home/cazzano/DB/Emergency/Coding/Github_Projects/J.I.R.C/cms/beta/backend/main.py", line 144, in login
+    if verify_password(password, stored_password):
+       ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cazzano/DB/Emergency/Coding/Github_Projects/J.I.R.C/cms/beta/backend/main.py", line 82, in verify_password
+    verification_result = bcrypt.checkpw(provided_password, stored_password)
+ValueError: Invalid salt
+
+Full Traceback:
+None
+2025-01-19 20:33:44 - main - DEBUG - Login Request Received
+Exception Traceback:
+None
+2025-01-19 20:33:44 - main - DEBUG - Request Headers: Host: localhost:5000
+Connection: keep-alive
+Content-Length: 50
+Sec-Ch-Ua-Platform: "Linux"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua: "Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"
+Content-Type: application/json
+Sec-Ch-Ua-Mobile: ?0
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+Exception Traceback:
+None
+2025-01-19 20:33:44 - main - DEBUG - Request Data: {'email': 'kali@kali.com', 'password': 'password123'}
+Exception Traceback:
+None
+2025-01-19 20:33:44 - main - DEBUG - Attempting to fetch user: kali@kali.com
+Exception Traceback:
+None
+2025-01-19 20:33:44 - main - DEBUG - User found: (1, 'kali@kali.com', 'password123', 1)
+Exception Traceback:
+None
+2025-01-19 20:33:44 - main - DEBUG - Stored password for kali@kali.com: password123
+Exception Traceback:
+None
+2025-01-19 20:33:44 - main - DEBUG - Password Verification Initiated
+Exception Traceback:
+None
+2025-01-19 20:33:44 - main - DEBUG - Provided Password Type: <class 'str'>
+Exception Traceback:
+None
+2025-01-19 20:33:44 - main - DEBUG - Stored Password Type: <class 'str'>
+Exception Traceback:
+None
+2025-01-19 20:33:44 - main - DEBUG - Stored password encoded successfully
+Exception Traceback:
+None
+2025-01-19 20:33:44 - main - DEBUG - Provided password encoded successfully
+Exception Traceback:
+None
+2025-01-19 20:33:44 - main - ERROR - Bcrypt Verification Error: Invalid salt
+Exception Traceback:
+None
+2025-01-19 20:33:44 - main - ERROR - Full Traceback: Traceback (most recent call last):
+  File "/home/cazzano/DB/Emergency/Coding/Github_Projects/J.I.R.C/cms/beta/backend/main.py", line 95, in verify_password
+    verification_result = bcrypt.checkpw(provided_password, stored_password)
+ValueError: Invalid salt
+
+Exception Traceback:
+None
+2025-01-19 20:33:44 - main - CRITICAL - Comprehensive Password Verification Error: Invalid salt
+Exception Traceback:
+None
+2025-01-19 20:33:44 - main - CRITICAL - Full Traceback: Traceback (most recent call last):
+  File "/home/cazzano/DB/Emergency/Coding/Github_Projects/J.I.R.C/cms/beta/backend/main.py", line 95, in verify_password
+    verification_result = bcrypt.checkpw(provided_password, stored_password)
+ValueError: Invalid salt
+
+Exception Traceback:
+None
+2025-01-19 20:33:44 - main - ERROR - Password verification error: Invalid salt
+Exception Traceback:
+None
+2025-01-19 20:33:44 - main - ERROR - Full traceback: Traceback (most recent call last):
+  File "/home/cazzano/DB/Emergency/Coding/Github_Projects/J.I.R.C/cms/beta/backend/main.py", line 183, in login
+    if verify_password(password, stored_password):
+       ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cazzano/DB/Emergency/Coding/Github_Projects/J.I.R.C/cms/beta/backend/main.py", line 95, in verify_password
+    verification_result = bcrypt.checkpw(provided_password, stored_password)
+ValueError: Invalid salt
+
+Exception Traceback:
+None
